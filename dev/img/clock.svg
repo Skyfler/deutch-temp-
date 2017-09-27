@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <circle id="Oval-5" stroke="#90C564" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" cx="42.5" cy="42.5" r="41.5"></circle>
+        <g id="Imported-Layers" sketch:type="MSLayerGroup" transform="translate(18.000000, 16.000000)">
+            <path d="M-0.152,27.551 C-0.152,14.296 10.593,3.551 23.848,3.551 C37.103,3.551 47.848,14.296 47.848,27.551 C47.848,40.806 37.103,51.551 23.848,51.551 C10.593,51.551 -0.152,40.806 -0.152,27.551 L-0.152,27.551 Z M5.401,27.551 C5.401,17.363 13.66,9.104 23.848,9.104 C34.036,9.104 42.295,17.363 42.295,27.551 C42.295,37.739 34.036,45.998 23.848,45.998 C13.66,45.998 5.401,37.739 5.401,27.551 L5.401,27.551 Z M19.337,27.551 C19.337,25.059 21.357,23.039 23.848,23.039 C26.34,23.039 28.36,25.059 28.36,27.551 C28.36,30.042 26.34,32.062 23.848,32.062 C21.357,32.062 19.337,30.042 19.337,27.551 L19.337,27.551 Z" id="Stroke-1" stroke="#90C564" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            <path d="M22.309,27.551 C22.309,26.701 22.998,26.012 23.848,26.012 C24.698,26.012 25.387,26.701 25.387,27.551 C25.387,28.4 24.698,29.089 23.848,29.089 C22.998,29.089 22.309,28.4 22.309,27.551" id="Fill-2" fill="#90C564" sketch:type="MSShapeGroup"></path>
+            <path d="M27.038,24.361 L33.274,18.125 L27.038,24.361 Z M23.848,40.025 L23.848,42.207 L23.848,40.025 Z M23.848,12.894 L23.848,15.076 L23.848,12.894 Z M11.373,27.551 L9.192,27.551 L11.373,27.551 Z M38.505,27.551 L36.323,27.551 L38.505,27.551 Z M15.001,36.398 L13.485,37.914 L15.001,36.398 Z M34.212,17.187 L32.669,18.73 L34.212,17.187 Z M14.96,15.897 L16.284,17.633 L14.96,15.897 Z M31.413,37.469 L32.736,39.205 L31.413,37.469 Z M19.965,-0.333 L27.732,-0.333 L27.732,3.55 L19.965,3.55 L19.965,-0.333 Z M40.85,4.901 L46.342,10.392 L43.486,13.248 L37.994,7.756 L40.85,4.901 L40.85,4.901 Z M30.989,-0.333 L16.708,-0.333 L30.989,-0.333 Z" id="Stroke-3" stroke="#90C564" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

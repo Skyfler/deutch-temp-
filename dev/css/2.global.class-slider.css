@@ -1,0 +1,20 @@
+.slider {
+	overflow: hidden;
+	position: relative;
+}
+
+.slider .overflow_hidden_container {
+	overflow: hidden;
+	position: relative;
+}
+
+.slider .overflow_block {
+	position: relative;
+	transition: left ease 1s;
+}
+
+.slider .slider_slide {
+	position: relative;
+	float: left;
+	overflow: hidden;
+}

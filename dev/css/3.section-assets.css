@@ -1,0 +1,101 @@
+.assets {
+	padding-top: 80px;
+	padding-bottom: 20px;
+	background: #fff;
+}
+
+.assets .block_main_title {
+	width: 100%;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 26px;
+}
+
+.assets .asset_block {
+	width: 100%;
+	padding: 30px 10px 30px 80px;
+	position: relative;
+	text-align: left;
+}
+
+.assets .asset_block:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-size: 100% 100%;
+	top: 30px;
+	left: 10px;
+}
+.assets .asset_block.asset1:before {
+	background-image: url(../img/feather.svg);
+}
+.assets .asset_block.asset2:before {
+	background-image: url(../img/lightning.svg);
+}
+.assets .asset_block.asset3:before {
+	background-image: url(../img/clock.svg);
+}
+.assets .asset_block.asset4:before {
+	background-image: url(../img/bundle.svg);
+}
+
+.assets .asset_block .title {
+	color: #3A3E3E;
+	line-height: 1.2;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	padding-bottom: 15px;
+}
+
+.assets .asset_block .description {
+	font-size: 14.4px;
+	color: #3A3E3E;
+}
+
+@media screen and (min-width: 768px) {
+
+	.assets {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.assets .block_main_title {
+		margin-bottom: 20px;
+	}
+
+	.assets .asset_block {
+		width: 50%;
+		padding: 30px 10px 30px 120px;
+	}
+
+	.assets .asset_block:before {
+		width: 85px;
+		height: 85px;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+
+	.assets {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.assets .block_main_title {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+
+	.assets .asset_block .title {
+		font-size: 19px;
+	}
+
+	.assets .asset_block .description {
+		font-size: 16px;
+	}
+
+}

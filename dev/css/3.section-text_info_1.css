@@ -1,0 +1,38 @@
+.text_info_1 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #f6f7f7;
+}
+
+.text_info_1 .container {
+	max-width: 590px;
+}
+
+.text_info_1 .block_main_title {
+	width: 100%;
+	color: #3A3E3E;
+	line-height: 1.2;
+	font-weight: 300;
+	font-size: 26px;
+}
+
+.text_info_1 p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14.4px;
+	color: #3A3E3E;
+	line-height: 1.5;
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 992px) {
+
+	.text_info_1 .block_main_title {
+		font-size: 30px;
+	}
+
+	.text_info_1 p {
+		font-size: 16px;
+	}
+
+}

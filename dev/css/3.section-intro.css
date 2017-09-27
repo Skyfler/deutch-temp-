@@ -1,0 +1,46 @@
+.intro {
+	padding: 136px 0 66px;
+	background: #3a8285 url(../img/header.jpg) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.intro .first_line {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.intro .second_line {
+	color: #fff;
+	line-height: 1.5;
+	font-weight: 400;
+	font-size: 19px;
+	margin-top: 20px;
+}
+
+.intro .details {
+	width: 100%;
+	margin-top: 70px;
+}
+
+@media (min-width: 768px) {
+
+	.intro .first_line {
+		color: #fff;
+		font-size: 37px;
+		font-weight: 300;
+	}
+
+	.intro .details {
+		max-width: 263px;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.intro .first_line {
+		font-size: 44px;
+	}
+
+}

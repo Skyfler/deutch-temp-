@@ -1,0 +1,34 @@
+.text_info_2 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #fff;
+}
+
+.text_info_2 .block_main_title {
+	width: 100%;
+	color: #3A3E3E;
+	line-height: 1.2;
+	font-weight: 300;
+	font-size: 26px;
+}
+
+.text_info_2 .btn {
+	margin-top: 40px;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+	.text_info_2 .btn {
+		width: 263px;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+
+	.text_info_2 .block_main_title {
+		font-size: 30px;
+	}
+
+}

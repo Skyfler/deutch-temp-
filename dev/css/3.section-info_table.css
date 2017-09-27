@@ -1,0 +1,138 @@
+.info_table {
+	background: #3a8285 url(../img/header.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	padding-bottom: 70px;
+	padding-top: 50px;
+}
+
+.info_table .block_main_title {
+	color: #fff;
+	width: 100%;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+.info_table .table_desktop {
+	display: none;
+}
+
+.info_table .table_desktop table {
+	width: 100%;
+	border-top: 1px solid #fff;
+	color: #fff;
+	border-collapse: collapse;
+}
+
+.info_table .table_desktop tr {
+	border-bottom: 1px solid #8fb5b8;
+}
+.info_table .table_desktop tbody tr.footer {
+	border-bottom: none;
+}
+
+.info_table .table_desktop thead td,
+.info_table .table_desktop thead th {
+	padding: 25px 0;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.info_table .table_desktop tbody td,
+.info_table .table_desktop tbody th {
+	padding: 15px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.info_table .table_desktop thead th:first-child,
+.info_table .table_desktop tbody th {
+	text-align: left;
+	padding-left: 15px;
+}
+.info_table .table_desktop tbody tr.footer td,
+.info_table .table_desktop tbody tr.footer th {
+	padding: 25px 15px 0;
+}
+
+.info_table .check {
+	display: inline-block;
+	width: 29px;
+	height: 20px;
+	min-width: 29px;
+	background-image: url(../img/checkmark-white.svg);
+	background-size: 100% 100%;
+}
+
+.info_table .btn {
+	min-width: 200px;
+	width: 100%;
+}
+
+.info_table .table_tablet {
+	width: 100%;
+	color: #fff;
+}
+
+.info_table .table_tablet ul + ul {
+	margin-top: 30px;
+}
+
+.info_table .table_tablet li {
+	text-align: left;
+	border-bottom: 1px solid #fff;
+	padding: 15px 0 15px;
+	font-size: 14.4px;
+}
+.info_table .table_tablet li.title {
+	line-height: 1.2;
+	font-size: 22px;
+	font-weight: 300;
+}
+.info_table .table_tablet li.last {
+	border: none;
+	padding: 15px 0 0;
+}
+
+.info_table .table_tablet .check {
+	margin: 0 30px;
+}
+
+@media screen and (min-width: 768px) {
+
+	.info_table {
+		padding-bottom: 70px;
+		padding-top: 50px;
+	}
+
+	.info_table .block_main_title {
+		margin-bottom: 50px;
+	}
+
+	.info_table .btn {
+		width: auto;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+
+	.info_table {
+		padding-bottom: 70px;
+		padding-top: 60px;
+	}
+
+	.info_table .block_main_title {
+		font-size: 30px;
+		margin-bottom: 60px;
+	}
+
+	.info_table .table_desktop {
+		display: block;
+	}
+
+	.info_table .table_tablet {
+		display: none;
+	}
+
+}

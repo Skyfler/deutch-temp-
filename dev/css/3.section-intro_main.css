@@ -1,0 +1,49 @@
+.intro_main {
+	padding: 172px 0 142px;
+	background: #3a8285 url(../img/heroBkgd.jpg) 58% 78% no-repeat;
+}
+
+.intro_main .first_line {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.intro_main .second_line {
+	color: #fff;
+	line-height: 1.5;
+	font-weight: 400;
+	font-size: 19px;
+	margin-top: 20px;
+}
+
+.intro_main .details {
+	width: 100%;
+	margin-top: 70px;
+}
+
+@media (min-width: 768px) {
+
+	.intro_main .first_line {
+		color: #fff;
+		font-size: 37px;
+		font-weight: 300;
+	}
+
+	.intro_main .details {
+		max-width: 263px;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.intro_main {
+		background-size: 114%;
+	}
+
+	.intro_main .first_line {
+		font-size: 60px;
+	}
+
+}

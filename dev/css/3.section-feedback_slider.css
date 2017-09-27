@@ -1,0 +1,116 @@
+.feedback_slider {
+	background-color: #fff;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.feedback_slider .slider {
+	overflow: visible;
+}
+
+.feedback_slider .overflow_block {
+	transition: left ease 0.5s;
+}
+
+.feedback_slider .slider_controlls_container {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.feedback_slider .slider_controlls_container .arrow {
+	display: block;
+	padding: 0;
+	background: #fff;
+	transform: translateY(-50%);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	top: 50%;
+	color: #767F7F;
+	transition: color .2s ease-in-out;
+	background: none;
+	border: none;
+	position: absolute;
+}
+.feedback_slider .slider_controlls_container .arrow.arrow_left {
+	left: 0px;
+}
+.feedback_slider .slider_controlls_container .arrow.arrow_right {
+	right: 0px;
+}
+.feedback_slider .slider_controlls_container .arrow:hover {
+	color: #90C564;
+}
+
+.feedback_slider .slider_controlls_container .arrow i {
+	transition: transform .2s ease-in-out;
+}
+.feedback_slider .slider_controlls_container .arrow.arrow_left:hover i {
+	transform: translateX(-5px);
+}
+.feedback_slider .slider_controlls_container .arrow.arrow_right:hover i {
+	transform: translateX(5px);
+}
+
+.feedback_slider .slider_slide p {
+	font-size: 26px;
+	color: #3A3E3E;
+	line-height: 1.2;
+	font-style: normal;
+	font-weight: 300;
+	padding: 0 15px 15px;
+	margin: 0 auto;
+}
+
+.feedback_slider .slider_dot_controlls {
+	padding-top: 30px;
+}
+
+.feedback_slider .slider_dot_controlls li.slider_dot_controll {
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+	background: #767F7F;
+	display: block;
+	transition: background .2s ease-in-out;
+	cursor: pointer;
+}
+.feedback_slider .slider_dot_controlls li.slider_dot_controll.active,
+.feedback_slider .slider_dot_controlls li.slider_dot_controll:hover {
+	background: #90C564;
+}
+.feedback_slider .slider_dot_controlls li.slider_dot_controll + li.slider_dot_controll {
+	margin-left: 6px;
+}
+
+@media screen and (min-width: 768px) {
+
+	.feedback_slider {
+		padding-bottom: 100px;
+		padding-top: 100px;
+	}
+
+	.feedback_slider .slider_slide p {
+		width: 66.666666666666%;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+
+	.feedback_slider {
+		padding-bottom: 120px;
+		padding-top: 120px;
+	}
+
+	.feedback_slider .slider_slide p {
+		font-size: 30px;
+	}
+
+}

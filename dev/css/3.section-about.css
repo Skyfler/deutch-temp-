@@ -1,0 +1,44 @@
+.about {
+	padding-top: 100px;
+	padding-bottom: 110px;
+	background: #fff;
+	background: linear-gradient(to top,#fff 50%,#989895);
+}
+
+.about .block_main_title {
+	width: 100%;
+	color: #3A3E3E;
+	line-height: 1.2;
+	font-weight: 300;
+	font-size: 26px;
+	margin-bottom: 40px;
+}
+
+.about p {
+	font-size: 14.4px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #3A3E3E;
+	line-height: 1.5;
+	text-align: left;
+}
+.about p + p {
+	margin-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+
+	.about {
+		padding-top: 120px;
+	}
+
+	.about .block_main_title {
+		font-size: 30px;
+	}
+
+	.about p {
+		font-size: 16px;
+	}
+
+}
