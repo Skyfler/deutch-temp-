@@ -33,7 +33,6 @@
 		langSelectElemsArr.push(langSelectHeaderElem);
 	}
 
-
 	var langSelectFooterElem = document.querySelector('#lang_switch_footer');
 	if (langSelectFooterElem) {
 		var langSelectFooter = new CustomSelect({
@@ -43,7 +42,7 @@
 		langSelectElemsArr.push(langSelectFooterElem);
 	}
 
-	window.langSwitcher = new LangSwitcher({
+	var langSwitcher = new LangSwitcher({
 		langSelectElemsArr: langSelectElemsArr
 	});
 

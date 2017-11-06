@@ -16,35 +16,30 @@
 			</ul>
 		</div>
 		<div class="col">
-			<h4 class="col_title">Загрузить</h4>
+			<h4 class="col_title"><?= __("download"); ?></h4>
 			<ul class="links_list">
-				<li><a href="#">Windows</a></li>
-				<li><a href="#">Mac</a></li>
-				<li><a href="#">Linux</a></li>
-				<li><a href="#">Мобильная версия</a></li>
-				<li><a href="#">Remote</a></li>
+				<li><a href="#"><?= __("download_act"); ?> <?= __("for_win"); ?></a></li>
+				<li><a href="#"><?= __("download_db"); ?> <?= __("for_win"); ?></a></li>
 			</ul>
 		</div>
 		<div class="col">
-			<h4 class="col_title">Компания</h4>
+			<h4 class="col_title"><?= __("company"); ?></h4>
 			<ul class="links_list">
-				<li><a href="#">О нас</a></li>
-				<li><a href="#">Блог</a></li>
-				<li><a href="#">Конфи&shy;ден&shy;ци&shy;аль&shy;ность</a></li>
+				<li><a href="about"><?= __("about"); ?></a></li>
+				<li><a href="#"><?= __("privacy_policy"); ?></a></li>
 				<li><a href="#">EULA</a></li>
 				<li><a href="#">Copyright</a></li>
-				<li><a href="#">Условия</a></li>
-				<li><a href="#">Реклама</a></li>
+				<li><a href="terms_of_use"><?= __("terms"); ?></a></li>
 			</ul>
 		</div>
 		<div class="col">
-			<h4 class="col_title">Справка</h4>
+			<h4 class="col_title"><?= __("help"); ?></h4>
 			<ul class="links_list">
-				<li><a href="#">Справка</a></li>
-				<li><a href="#">Форумы</a></li>
+				<li><a href="contacts"><?= __("contacts"); ?></a></li>
+
 			</ul>
 		</div>
-		<div class="copyright">&copy;2017 BitTorrent, Inc. µTorrent является торговой маркой BitTorrent, Inc.</div>
+		<div class="copyright"><?= __("copyright"); ?></div>
 	</div>
 </footer>
 <script src="scripts/build.min.js"></script>

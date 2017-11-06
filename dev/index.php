@@ -6,145 +6,144 @@ require_once("php_scripts/initTranslator.php");
 <html lang="<?= $translator->lang; ?>" class="page-index">
 <head>
 	<?php require('include/head.php'); ?>
-	<title>uTorrent (copy)</title>
+	<title><?= __("index_title"); ?></title>
 </head>
 <body>
 	<?php require('include/header.php'); ?>
 	<section class="intro_main">
 		<div class="container">
-			<h2 class="first_line">Минимальный размер. Максимум функций.<br><?= __("somestring"); ?></h2>
-			<p class="second_line">Простой, понятный и эффективный торрент-клиент.</p>
-			<a href="#" class="details btn">Скачайте µTorrent <span class="line small">Для Windows</span></a>
+			<h2 class="first_line"><?= __("first_line"); ?><br><?= __("somestring"); ?></h2>
+			<p class="second_line"><?= __("second_line"); ?></p>
+			<a href="#" class="details btn"><?= __("download_act"); ?><span class="line small"><?= __("for_win"); ?></span></a>
+			<a href="#" class="details btn"><?= __("download_db"); ?> <span class="line small"><?= __("for_win"); ?></span></a>
 		</div>
 	</section>
 	<section class="assets">
 		<div class="container flex">
-			<h2 class="block_main_title">Почему он потрясающий?</h2>
+			<h2 class="block_main_title"><?= __("block_main_title"); ?></h2>
 			<div class="asset_block asset1">
-				<h4 class="title">Занимает мало места</h4>
-				<div class="description">µTorrent занимает чуть более 2 МБ (меньше, чем цифровая фотография!). Он исключительно быстро устанавливается и никогда не будет разбазаривать ваши ценные системные ресурсы.</div>
+				<h4 class="title"><?= __("feature_1"); ?></h4>
+				<div class="description"><?= __("decribe_1"); ?></div>
 			</div>
 			<div class="asset_block asset2">
-				<h4 class="title">Мощный</h4>
-				<div class="description">Want total control? uTorrent offers advanced settings such as automation, scripting, remote management and more.</div>
+				<h4 class="title"><?= __("feature_2"); ?></h4>
+				<div class="description"></div>
 			</div>
 			<div class="asset_block asset3">
-				<h4 class="title">Высокая скорость</h4>
-				<div class="description">Скачивайте файлы настолько быстро и эффективно, насколько это возможно, без замедления вашей деятельности в Интернете.</div>
+				<h4 class="title"><?= __("feature_3"); ?></h4>
+				<div class="description"></div>
 			</div>
 			<div class="asset_block asset4">
-				<h4 class="title">BitTorrent Now</h4>
-				<div class="description">Fresh new music, video, and culture direct to your computer, phone, or TV. Experience underground songs, stories, and more from thousands of artists.</div>
+				<h4 class="title"><?= __("feature_4"); ?></h4>
+				<div class="description"></div>
 			</div>
 		</div>
 	</section>
 	<section class="info_table">
 		<div class="container">
-			<h2 class="block_main_title">Choose the µTorrent that's best for you.</h2>
+			<h2 class="block_main_title"><?= __("block_main_title_2"); ?></h2>
 			<div class="table_desktop">
 				<table>
 					<thead>
 						<tr>
 							<th></th>
-							<th>µTorrent</th>
-							<th>µTorrent Ad-free</th>
-							<th>µTorrent Pro</th>
+							<th>DATA BASE</th>
+							<th>ACT2018</th>
+							<th>FULL PACK</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<th>Быстрые загрузки с автоматическим управлением пропускной способностью канала</th>
-							<td><span class="check"></span></td>
-							<td><span class="check"></span></td>
-							<td><span class="check"></span></td>
-						</tr>
-						<tr>
-							<th>Никакой рекламы</th>
+							<th><?= __("specification_1"); ?></th>
 							<td></td>
 							<td><span class="check"></span></td>
 							<td><span class="check"></span></td>
 						</tr>
 						<tr>
-							<th>Автоматическая защита от вирусов и вредоносных программ</th>
-							<td></td>
+							<th><?= __("specification_2"); ?></th>
+							<td><span class="check"></span></td>
 							<td></td>
 							<td><span class="check"></span></td>
 						</tr>
 						<tr>
-							<th>Премиум-поддержка пользователей</th>
-							<td></td>
+							<th><?= __("specification_3"); ?></th>
+							<td><span class="check"></span></td>
+							<td><span class="check"></span></td>
+							<td><span class="check"></span></td>
+						</tr>
+						<tr>
+							<th><?= __("specification_4"); ?></th>
+							<td><span class="check"></span></td>
 							<td></td>
 							<td><span class="check"></span></td>
 						</tr>
 						<tr>
-							<th>Конвертация загруженных файлов для воспроизведения на любом устройстве</th>
-							<td></td>
-							<td></td>
-							<td><span class="check"></span></td>
-						</tr>
-						<tr>
-							<th>Мгновенное воспроизведение потокового торрент-видео</th>
+							<th><?= __("specification_5"); ?></th>
 							<td></td>
 							<td></td>
 							<td><span class="check"></span></td>
 						</tr>
 						<tr class="footer">
 							<th></th>
-							<td><button class="btn btn_transparent">Скачайте µTorrent <span class="line small">Для Windows</span></button></td>
-							<td><button class="btn">Получите µTorrent Ad-free <span class="line small">$4.95 USD/год</span></button></td>
-							<td><button class="btn">Получите µTorrent Pro <span class="line small">$19.95 USD/год</span></button></td>
+							<td><button class="btn btn_transparent"><?= __("download_db"); ?><span class="line small"><?= __("for_win"); ?></span></button></td>
+							<td><button class="btn btn_transparent"><?= __("download_act"); ?><span class="line small"><?= __("for_win"); ?></span></button></td>
+							<td><button class="btn"><?= __("get_full"); ?></button></td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
 			<div class="table_tablet">
 				<ul>
-					<li class="title">µTorrent</li>
+					<li class="title">DATA BASE</li>
 					<li class="flex-nowrap flex-center-y">
-						<div>Быстрые загрузки с автоматическим управлением пропускной способностью канала</div>
+						<div><?= __("specification_2"); ?></div>
 						<span class="check"></span>
 					</li>
-					<li class="last"><button class="btn btn_transparent">Скачайте µTorrent <span class="line small">Для Windows</span></button></li>
+					<li class="flex-nowrap flex-center-y">
+						<div><?= __("specification_3"); ?></div>
+						<span class="check"></span>
+					</li>
+					<li class="flex-nowrap flex-center-y">
+						<div><?= __("specification_4"); ?></div>
+						<span class="check"></span>
+					</li>
+					<li class="last"><button class="btn btn_transparent"><?= __("download_db"); ?><span class="line small"><?= __("for_win"); ?></span></button></li>
 				</ul>
 				<ul>
-					<li class="title">µTorrent Ad-Free</li>
+					<li class="title">ACT2018</li>
 					<li class="flex-nowrap flex-center-y">
-						<div>Быстрые загрузки с автоматическим управлением пропускной способностью канала</div>
+						<div><?= __("specification_1"); ?></div>
 						<span class="check"></span>
 					</li>
 					<li class="flex-nowrap flex-center-y">
-						<div>Никакой рекламы</div>
+						<div><?= __("specification_3"); ?></div>
 						<span class="check"></span>
 					</li>
-					<li class="last"><button class="btn">Получите µTorrent Ad-free <span class="line small">$4.95 USD/год</span></button></li>
+					<li class="last"><button class="btn btn_transparent"><?= __("download_act"); ?><span class="line small"><?= __("for_win"); ?></span></button></li>
 				</ul>
 				<ul>
-					<li class="title">µTorrent Pro</li>
+					<li class="title">FULL PACK</li>
 					<li class="flex-nowrap flex-center-y">
-						<div>Быстрые загрузки с автоматическим управлением пропускной способностью канала</div>
+						<div><?= __("specification_1"); ?></div>
 						<span class="check"></span>
 					</li>
 					<li class="flex-nowrap flex-center-y">
-						<div>Никакой рекламы</div>
+						<div><?= __("specification_2"); ?></div>
 						<span class="check"></span>
 					</li>
 					<li class="flex-nowrap flex-center-y">
-						<div>Автоматическая защита от вирусов и вредоносных программ</div>
+						<div><?= __("specification_3"); ?></div>
 						<span class="check"></span>
 					</li>
 					<li class="flex-nowrap flex-center-y">
-						<div>Премиум-поддержка пользователей</div>
+						<div><?= __("specification_4"); ?></div>
 						<span class="check"></span>
 					</li>
 					<li class="flex-nowrap flex-center-y">
-						<div>Конвертация загруженных файлов для воспроизведения на любом устройстве</div>
+						<div><?= __("specification_5"); ?></div>
 						<span class="check"></span>
 					</li>
-					<li class="flex-nowrap flex-center-y">
-						<div>Мгновенное воспроизведение потокового торрент-видео</div>
-						<span class="check"></span>
-					</li>
-					<li class="last"><button class="btn">Получите µTorrent Pro <span class="line small">$19.95 USD/год</span></button></li>
+					<li class="last"><button class="btn"><?= __("get_full"); ?></button></li>
 				</ul>
 			</div>
 		</div>

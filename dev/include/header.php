@@ -13,7 +13,7 @@
 				<button class="menu_close_btn" id="header_menu_close_btn">×</button>
 				<ul class="main_menu flex flex-center-y">
 					<li class="submenu_container">
-						<span>Продукты</span>
+						<span><?= __("products"); ?></span>
 						<div class="submenu">
 							<ul>
 								<li><a href="product-page">Act2018</a></li>
@@ -21,8 +21,8 @@
 							</ul>
 						</div>
 					</li>
-					<li><a href="about">О нас</a></li>
-					<li><a href="contacts">Контакты</a></li>
+					<li><a href="about"><?= __("about"); ?></a></li>
+					<li><a href="contacts"><?= __("contacts"); ?></a></li>
 					<li id="lang_switch_header" class="customselect">
 						<button class="title"></button>
 						<ul class="option_list">

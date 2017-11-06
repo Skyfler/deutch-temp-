@@ -20,14 +20,14 @@ require_once("php_scripts/initTranslator.php");
 			<div class="promo_block flex flex-align-stretch">
 				<div class="promo_block_inner">
 					<div class="title">Act2018</div>
-					<div class="text">Protect your PC, speed up your downloads, convert any file, and enjoy in on any device.</div>
+					<div class="text">Bored of documentation routine? Download Act2018 and call us to do your work much faster!</div>
 					<a href="product-page.html" class="btn btn_green">Learn More</a>
 				</div>
 			</div>
 			<div class="promo_block flex flex-align-stretch">
 				<div class="promo_block_inner">
 					<div class="title">DabaBase</div>
-					<div class="text">Fresh new music, video and culture. Direct to your computer, phone, and TV.</div>
+					<div class="text">New software created to help you with your workflow! Easier, faster, automated!</div>
 					<a href="product-page.html" class="btn btn_green">Learn More</a>
 				</div>
 			</div>

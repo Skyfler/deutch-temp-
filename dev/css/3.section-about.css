@@ -2,7 +2,7 @@
 	padding-top: 100px;
 	padding-bottom: 110px;
 	background: #fff;
-	background: linear-gradient(to top,#fff 50%,#989895);
+	background: linear-gradient(to bottom, #989895, #fff 250px);
 }
 
 .about .block_main_title {
